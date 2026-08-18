@@ -1,0 +1,12 @@
+# Ignore the raw training data folders
+cat/
+dog/
+
+# Ignore the saved heavy Keras model weight files
+*.keras
+*.h5
+
+# Ignore local notebook checkpoints and system caches
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
